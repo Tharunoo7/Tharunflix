@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Info Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Register to View Management Seat Fees</h2>
+            <form id="registrationForm">
+                <input type="text" id="name" placeholder="Enter your Name" required>
+                <input type="email" id="email" placeholder="Enter your Email" required>
+                <button type="button" onclick="nextStep()">Next</button>
+            </form>
+            <form id="phoneForm" style="display:none;">
+                <input type="tel" id="phone" placeholder="Enter your Phone Number" required>
+                <button type="button" onclick="showColleges()">Submit</button>
+            </form>
+        </div>
+        <div id="collegeList" style="display:none;">
+            <h2>Top Colleges in Hyderabad</h2>
+            <div class="colleges" id="colleges"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
