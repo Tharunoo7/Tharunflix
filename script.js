@@ -17,7 +17,6 @@ function showColleges() {
             { name: "Gokaraju Rangaraju", image: "https://campushunt.in/photogallery/Gokaraju%203.jpg" },
             { name: "CBIT", image: "https://www.cbit.ac.in/wp-content/uploads/2019/01/gal-image-1-1024x683.jpg" },
             { name: "BVRIT", image: "https://media.getmyuni.com/reviews/113544__41671/1660875351IMG_20220819_074459.jpg" }
-            { name:  "CMRK"  image: "https://gyaanarth.com/wp-content/uploads/2022/06/CMR_01.jpg"}
         ];
 
         let collegeDiv = document.getElementById("colleges");
